@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+body{
+    background-color: #000;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 3em;
+}
+.nav{
+    background-color: #000;
+    opacity: 0.85;
+    position: fixed;
+    width: 100%;
+    border-bottom: #fff solid 2px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.nav-item .nav-link{
+    color:#FFF;
+    font-size: 1.7em;
+}
+.section{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+#a{
+    font-size: 8em;
+}
+.content > p{
+    min-width: 900px;
+    font-size: 1.6em;
+    text-shadow: -1px 0 #FFF;
+}
+p span{
+    display: block;
+}
+#h{
+    font-size: 2em;
+    line-height: 1.6em;
+}
+.header{
+    padding: 50px 0px 50px 0px;
+}
+.section .content{
+    padding: 50px 0px 50px 0px;
+}
+.section img{
+    width:100%;
+    height: 50%;
+    object-fit: cover;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+    overflow: wrap;
+    align-items: center;
+}
+.text-center img{
+    width: 30%;
+    padding: 30px;
+}
+footer{
+    padding-right: 1.5em;
+    color: #fff;
+    text-align: right;
+}
+/* card */
+h5{
+    color:#000;
+}
+.card img{
+    width:auto;
+    height:300px;
+}
+.modal{
+    z-index: 9999;
+    opacity:1 !important;
+}
+.modal-body{
+    display:flex;
+    justify-content: center;
+}
