@@ -68,15 +68,23 @@ footer{
 }
 /* card */
 h5{
-    color:#000;
+    color:#fff;
+}
+.card{
+    background-color:black;
+    border:#fff solid 1px;
 }
 .card img{
     width:auto;
     height:300px;
 }
-.modal{
-    z-index: 9999;
-    opacity:1 !important;
+.card-body .btn{
+    color:#fff;
+    border:#fff solid 1px;
+}
+.modal-content{
+    background-color:black;
+    border:#fff solid 1px;
 }
 .modal-body{
     display:flex;
